@@ -13,3 +13,9 @@ body{
 
 
 }
+
+.prodotto1{
+  width: auto;
+  height: auto;
+  position: relative;
+}
