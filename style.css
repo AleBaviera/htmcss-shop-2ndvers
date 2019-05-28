@@ -13,25 +13,6 @@ body{
 
 
 }
-.primacolonna{
-  width: 200px;
-  height: 800px;
-}
-.prodotto1{
-  width: 300px;
-  height: 400px;
-  position: relative;
-  background-color: white;
-
-}
-
-.scontogreen{
-  background-color: green;
-  position: absolute;
-  top:0;
-  right:0;
-
-}
 .cuore{
   display: none;
   position: absolute;
@@ -40,6 +21,31 @@ body{
 }
 img:hover + .cuore{
   display: block;
+
+}
+
+.primacolonna{
+  width: 300px;
+  position: absolute;
+  left:50px;
+  top: 0px;
+}
+.prodotto1{
+  width: 300px;
+  height: 400px;
+  position: relative;
+  background-color: white;
+  display: inline-block;
+  left: 0px;
+  top: 0;
+
+}
+
+.scontogreen{
+  background-color: green;
+  position: absolute;
+  top:0;
+  right:0;
 
 }
 
