@@ -15,7 +15,21 @@ body{
 }
 
 .prodotto1{
-  width: auto;
-  height: auto;
+  width: 300px;
+  height: 400px;
   position: relative;
+  background-color: blue;
+}
+
+.cuore{
+  position: absolute;
+  left: 150px;
+}
+
+.scontogreen{
+  background-color: green;
+  position: absolute;
+  top:0;
+  right:0;
+
 }
